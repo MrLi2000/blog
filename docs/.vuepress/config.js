@@ -20,7 +20,8 @@ module.exports = {
             '/recipes/': [
                 'menu',
                 'fruits',
-                'vegetables',
+                // 'vegetables',
+                'travel'
             ],
             '/': [''],
         },
