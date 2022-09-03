@@ -1,2 +1,2 @@
 ## 阅读列表
-### - [吃货清单](/recipes/fruits/)
+### - [吃货清单](/recipes/fruits)
