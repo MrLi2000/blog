@@ -17,26 +17,14 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: {
-            '/recipes/fruits': [
-                {
-                    title: '吃货清单',
-                    collapsable: false,
-                    children: [
-                        { title: '水果', path: '/recipes/fruits'},
-                    ]
-                },
-                {
-                    title: '素',
-                    // collapsable: false,
-                    children: [
-                        { title: '土豆', path: '/recipes/vegetables/tudou'},
-                        { title: '番茄', path: '/recipes/vegetables/fanqie'},
-                    ]
-                },
+            '/recipes/': [
+                'menu',
+                'fruits',
+                'vegetables',
             ],
             '/': [''],
         },
-        sidebarDepth: 2,//左侧导航显示的层级
+        // sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: '最后更新时间'
     },
     plugins: {
